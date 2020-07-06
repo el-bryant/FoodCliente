@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "562576320639",
+    "firebase_url": "https://food-652e8.firebaseio.com",
+    "project_id": "food-652e8",
+    "storage_bucket": "food-652e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562576320639:android:492e2a1b181ef320d0374a",
+        "android_client_info": {
+          "package_name": "food.cliente"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562576320639-vlts0lvll91fqatl9ectr5mu1fj5qohn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYZeIPDzvx0OgCt_XZJu7K0ZcwEUTuw98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562576320639-vlts0lvll91fqatl9ectr5mu1fj5qohn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562576320639:android:34cf84e1afb2e2c2d0374a",
+        "android_client_info": {
+          "package_name": "food.vespro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562576320639-vlts0lvll91fqatl9ectr5mu1fj5qohn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYZeIPDzvx0OgCt_XZJu7K0ZcwEUTuw98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562576320639-vlts0lvll91fqatl9ectr5mu1fj5qohn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562576320639:android:ef1c578510b15201d0374a",
+        "android_client_info": {
+          "package_name": "repartidor.codi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562576320639-vlts0lvll91fqatl9ectr5mu1fj5qohn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYZeIPDzvx0OgCt_XZJu7K0ZcwEUTuw98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562576320639-vlts0lvll91fqatl9ectr5mu1fj5qohn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

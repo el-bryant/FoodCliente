@@ -1,0 +1,12 @@
+{
+	"client":{
+		"cp_id":"70051200000076019",
+		"product_id":"736430079244527860",
+		"client_id":"391092950169289920",
+		"client_secret":"4E17BD3CDF6723924FBAFDE841ECEF96BCF47D2195C465FE6725307D23094B57",
+		"app_id":"102450305",
+		"package_name":"food.cliente",
+		"api_key":"CgB6e3x9ABdY18U6KU4yvv9ca+lGHXvYHqCk0QtHaRLanyA8IFaSIT/1NT7n+AfcWq4meFJy6eNT18QOGheUldbC"
+	},
+	"configuration_version":"1.0"
+}

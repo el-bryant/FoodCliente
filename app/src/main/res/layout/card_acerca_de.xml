@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:id="@+id/cvAcercaDe" >
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa_bold"
+        android:textColor="@color/naranja"
+        android:textSize="15sp"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:id="@+id/tvIdAcercaDe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</androidx.cardview.widget.CardView>

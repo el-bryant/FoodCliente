@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/cvPedidoLista"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    app:cardBackgroundColor="@color/blanco" >
+
+    <TextView
+        android:id="@+id/tvIdPedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center" >
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/nivLogoTienda"
+            android:layout_width="100dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="12"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="2.5dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Fecha: "
+                    android:layout_weight="3"
+                    android:fontFamily="@font/comfortaa_bold"
+                    android:textColor="@color/naranja"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tvFechaPedido"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="aaaa-MM-dd"
+                    android:layout_weight="5"
+                    android:fontFamily="@font/comfortaa_bold"
+                    android:textColor="@color/naranja"
+                    android:textSize="15sp"
+                    android:textFontWeight="9" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="12"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginBottom="2.5dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Hora: "
+                    android:layout_weight="3"
+                    android:fontFamily="@font/comfortaa_bold"
+                    android:textColor="@color/naranja"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tvHoraPedido"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="HH:mm"
+                    android:layout_weight="5"
+                    android:fontFamily="@font/comfortaa_bold"
+                    android:textColor="@color/naranja"
+                    android:textSize="15sp"
+                    android:textFontWeight="9" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="12"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginBottom="2.5dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Producto: "
+                    android:layout_weight="3"
+                    android:fontFamily="@font/comfortaa_bold"
+                    android:textColor="@color/naranja"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tvNombreProducto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nombre del producto"
+                    android:layout_weight="5"
+                    android:fontFamily="@font/comfortaa_bold"
+                    android:textColor="@color/naranja"
+                    android:textSize="15sp"
+                    android:textFontWeight="9"
+                    android:singleLine="true" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="12"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginBottom="5dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Monto: "
+                    android:layout_weight="3"
+                    android:fontFamily="@font/comfortaa_bold"
+                    android:textColor="@color/naranja"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tvMonto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="S/ 0.00"
+                    android:layout_weight="5"
+                    android:fontFamily="@font/comfortaa_bold"
+                    android:textColor="@color/naranja"
+                    android:textSize="15sp"
+                    android:textFontWeight="9" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

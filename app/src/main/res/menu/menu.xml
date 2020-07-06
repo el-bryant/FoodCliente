@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navPedidos"
+            android:title="Mis pedidos"
+            android:icon="@drawable/ic_pedidos" />
+
+        <item
+            android:id="@+id/navPerfil"
+            android:title="Mi perfil"
+            android:icon="@drawable/ic_perfil" />
+
+        <item
+            android:id="@+id/navCategorias"
+            android:title="Categorias"
+            android:icon="@drawable/ic_categoria" />
+
+        <item
+            android:id="@+id/navPromociones"
+            android:title="Códigos promocionales"
+            android:icon="@drawable/ic_codigo"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/navPreguntas"
+            android:title="Preguntas"
+            android:icon="@drawable/ic_preguntas" />
+
+        <item
+            android:id="@+id/navNotificaciones"
+            android:title="Notificaciones"
+            android:icon="@drawable/ic_notificaciones"
+            android:visible="false" />
+
+        <!--        <item-->
+        <!--            android:id="@+id/navCerrar"-->
+        <!--            android:title="Cerrar sesión"-->
+        <!--            android:icon="@drawable/ic_mas"-->
+        <!--            app:actionLayout="@layout/icono_derecha" />-->
+
+    </group>
+
+</menu>

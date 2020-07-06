@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvCategoria"
+    app:cardCornerRadius="20dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="15dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginEnd="15dp"
+        android:weightSum="12" >
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/nivIconoCategoria"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:layout_weight="5" />
+
+        <TextView
+            android:id="@+id/tvNombreCategoria"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Nombre de categoría"
+            android:textColor="@color/azul"
+            android:fontFamily="@font/arciform"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:layout_weight="7" />
+
+        <TextView
+            android:id="@+id/tvIdCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

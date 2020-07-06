@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cvProducto"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="20dp"
+        card_view:cardUseCompatPadding="true"
+        android:layout_marginEnd="15dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center" >
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/nivImagenProducto"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_marginEnd="10dp"/>
+
+            <LinearLayout
+                android:id="@+id/llayDatosCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp" >
+
+                <TextView
+                    android:id="@+id/tvNombreProducto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:singleLine="true"
+                    android:textColor="@color/azul"
+                    android:fontFamily="@font/comfortaa_bold" />
+
+                <TextView
+                    android:id="@+id/tvIdProducto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginHorizontal="15dp"
+                    android:singleLine="true"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tienda: "
+                        android:textSize="15sp"
+                        android:lineHeight="15sp"
+                        android:singleLine="true"
+                        android:textColor="@color/gris"
+                        android:fontFamily="@font/comfortaa_bold" />
+
+                    <TextView
+                        android:id="@+id/tvProveedorProducto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:lineHeight="15sp"
+                        android:singleLine="true"
+                        android:textColor="@color/gris"
+                        android:fontFamily="@font/comfortaa_bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvPrecioProducto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/azul"
+                    android:textSize="20sp"
+                    android:textAlignment="textStart"
+                    android:fontFamily="@font/comfortaa_bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/boton_circular_naranja"
+        android:elevation="20dp"
+        android:src="@drawable/ic_mas"
+        android:layout_gravity="end|center"
+        android:paddingBottom="16dp"
+        android:paddingEnd="16dp"
+        android:paddingStart="8dp"
+        android:paddingTop="8dp"
+        android:layout_marginStart="-35dp" />
+
+</LinearLayout>

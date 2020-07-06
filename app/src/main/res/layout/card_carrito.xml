@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cvCarrito"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/tvIdProveedor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/nivImagenProducto"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="10dp" />
+
+        <LinearLayout
+            android:id="@+id/llayDatosCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_margin="10dp" >
+
+            <TextView
+                android:id="@+id/tvNombreProducto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:singleLine="true"
+                android:textColor="@color/azul"
+                android:fontFamily="@font/comfortaa_bold" />
+
+            <TextView
+                android:id="@+id/tvIdProducto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:layout_marginHorizontal="15dp"
+                android:singleLine="true"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tienda: "
+                    android:textColor="@color/gris"
+                    android:fontFamily="@font/comfortaa_bold" />
+
+                <TextView
+                    android:id="@+id/tvProveedorProducto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:lineHeight="15sp"
+                    android:singleLine="true"
+                    android:textColor="@color/gris"
+                    android:fontFamily="@font/comfortaa_bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvPrecioProducto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/azul"
+                android:textSize="18sp"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/comfortaa_bold" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivEliminar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center|bottom"
+            android:src="@drawable/ic_eliminar"
+            android:tint="@color/blanco"
+            android:background="@drawable/boton_circular_naranja"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="8dp"
+            android:paddingTop="8dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
